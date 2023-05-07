@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.books{
+    width: 100%;
+    height: 800px;
+}
+.books h2{
+    text-align: center;
+    color: #C0C0C0;
+    font-size: 30px;
+    font-style: italic;
+    font-family: "Times New Roman", Sans-serif;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.bttn1, .bttn2{
+    width: 34px;
+    height: 34px;
+    border: 2px solid #969696;
+    border-radius: 100%;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #969696;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 30px;
+    position: absolute;
+}
+.bttn2{
+    margin-left: 1470px;
+}
+.bttn1:hover, .bttn2:hover{
+    background: #9387d9;
+    color: #fff;
+    border-color: #9387d9;
+    transition: 0.3s;
+}
+.featured{
+    width: 96%;
+    display: flex;
+    margin-left: 30px;
+}
+.dark{
+    width: 500px;
+    height: 600px;
+    text-align: center; 
+}
+.line{
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.hot{
+    width: 270px;
+    height: 370px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.hot img{
+    width: 100%;
+    height: 100%;
+}
+.dark a{
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Jost",sans-serif;
+}
+.dark a:hover{
+    color: #9387d9;
+    transform: 0.6s;
+}
+.dark .add{
+    padding: 13px 60px;
+    background: transparent;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dark .add:hover{
+    background: #9387d9;
+    color: #fff;
+    border: none;
+    transition: 0.3s;
+}
